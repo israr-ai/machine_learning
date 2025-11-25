@@ -1,0 +1,29 @@
+EmployeeID,Experience,Age,Education_Level,Department,Salary
+E001,1,22,Bachelor,Sales,25000
+E002,3,25,Diploma,Marketing,30000
+E003,5,28,Master,Sales,42000
+E004,7,35,Bachelor,IT,52000
+E005,10,40,Master,HR,60000
+E006,12,44,PhD,IT,75000
+E007,15,50,Bachelor,Finance,82000
+E008,1,23,Bachelor,Sales,26000
+E009,3,26,Diploma,Marketing,31000
+E010,5,29,Master,IT,45000
+E011,7,36,Bachelor,Sales,53000
+E012,10,41,Master,Finance,61000
+E013,12,45,PhD,IT,76000
+E014,15,51,Bachelor,HR,83000
+
+# Duplicate Rows (intentional)
+E008,1,23,Bachelor,Sales,26000
+E012,10,41,Master,Finance,61000
+
+# Missing values (NaN)
+E015,,30,Bachelor,Sales,32000
+E016,4,,Diploma,Marketing,35000
+E017,8,38,,IT,50000
+E018,11,43,Master,,70000
+
+# Outliers (Salary extremely high)
+E019,4,27,Bachelor,Marketing,300000
+E020,2,24,Bachelor,Sales,250000
